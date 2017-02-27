@@ -1,0 +1,306 @@
+select{
+	list-style: none;
+}
+
+ul a{
+	text-decoration: none;
+}
+
+
+
+nav ul {
+    list-style:none;
+}
+
+
+html,body,div,h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+}
+body{
+	line-height: 1;
+	font-size: 14px;
+	background: black;
+	
+}
+
+
+a:link,a:hover,a:active,a:visited{text-decoration:none;}
+
+.wrapper{
+	width: 750px;
+	height: 1334px;
+	background: #5d5d5d; /* For browsers that do not support gradients */
+	background: -webkit-radial-gradient(circle,#5d5d5d, #222, #1e1e1e); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(circle,#5d5d5d, #222, #1e1e1e); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(circle,#5d5d5d, #222, #1e1e1e); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(circle,#5d5d5d, #222, #1e1e1e); /* Standard syntax */
+
+	margin: 50px auto;
+	position: relative;
+	font-family: sans-serif;
+}
+
+.top-nav{
+	width: 100%;
+	height: 73px;
+	background: #3e8e16;
+    background: -webkit-linear-gradient(#5aa51f, #22790d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5aa51f, #22790d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5aa51f, #22790d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5aa51f, #22790d); /* Standard syntax */
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.greenLevel{
+	width: 100%;
+	height: 188px;
+	background-image: url(../img/greenLevel.jpg);
+}
+
+
+.reward-btn{
+	width: 190px;
+	height: 65px;
+	color: #fff;
+	text-align: center;
+	padding-top: 35px;
+	font-size: 30px;
+	font-weight: bold;
+	background: #646464;
+	background: -webkit-linear-gradient(#696969, #4a4a4a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#696969, #4a4a4a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#696969, #4a4a4a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#696969, #4a4a4a); /* Standard syntax */
+	border-radius: 10px;
+	margin-top: 45px;
+	margin-right: 25px;
+	float: right;
+}
+
+a .reward-btn:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.card{
+	background-image: url(../img/card.jpg);
+	width: 679px;
+	height: 375px;
+	float: right;
+	margin-top: 34px;
+}
+
+.pay-btn{
+	background-image: url(../img/pay-btn.png);
+	width: 154px;
+	height: 154px;
+	float: right;
+	margin-top: -115px;
+	margin-right: 42px;
+}
+
+a .pay-btn:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.info-box{
+	width: 100%;
+	height: 579px;
+	
+}
+
+h2{
+	font-size: 36px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 0.7;
+	
+}
+h4{
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+
+}
+.info-left{
+	width: 350px;
+	height: 116px;
+	float: left;
+	margin-top: 50px;
+	padding-left: 50px;
+	
+
+
+}
+
+h3{
+	font-size: 28px;
+	color: #5c913a;
+	font-weight: bold;
+	line-height: 1.4;
+	font-weight: lighter;
+
+}
+
+.info-right{
+	width: 300px;
+	height: 116px;
+	float: right;
+	margin-top: 10px;
+	padding-right: 50px;
+	text-align: right;
+	
+
+
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{
+	text-decoration: none;
+	text-shadow:none;
+}
+
+.manage-btn{
+	width: 180px;
+	height: 70px;
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	background: #646464;
+	background: -webkit-linear-gradient(#696969, #4a4a4a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#696969, #4a4a4a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#696969, #4a4a4a); /* For Firefox 3.6 to 15 */
+	border-radius: 10px;
+	float: left;
+	margin-left: 153px;
+
+}
+
+.add-btn{
+	width: 180px;
+	height: 70px;
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	background: #646464;
+	background: -webkit-linear-gradient(#696969, #4a4a4a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#696969, #4a4a4a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#696969, #4a4a4a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#696969, #4a4a4a); /* Standard syntax */
+	border-radius: 10px;
+	float: right;
+	margin-right: 153px;
+
+
+}
+
+a .manage-btn:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+a .add-btn:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.menu-bar{
+	width: 100%;
+	height: 136px;
+	background-image: url(../img/menu.jpg);
+	position: absolute;
+	bottom: 0;
+
+
+}
+
+.card-2{
+	background-image: url(../img/card-3.jpg);
+	width: 671px;
+	height: 376px;
+	float: left;
+	margin-top: 34px;
+
+}
+
+a:hover .card-2{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+.card-3{
+	background-image: url(../img/card-4.jpg);
+	width: 663px;
+	height: 381px;
+	float: left;
+	margin-top: 34px;
+
+}
+
+input[type="text"]{
+	width: 385px;
+	height: 65px;
+	outline: none;
+	font-size: 30px;
+	margin-top: 108px;
+	margin-left: 230px;
+	font-weight: lighter;
+	padding-left: 5px;
+}
+
+
+span input[type="text"]{
+	width: 245px;
+	height: 65px;
+	outline: none;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-left: 230px;
+	font-weight: lighter;
+	padding-left: 5px;
+	text-align: left;
+}
+
+.cancel-btn{
+	width: 140px;
+	height: 47px;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	display: inline-block;
+	float: left;
+	background: #007143;
+	margin-top: -10px;
+	margin-left: 20px;
+	box-shadow: -1px 1px 5px #000;
+}
+
+.done-btn{
+	width: 140px;
+	height: 47px;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	display: inline-block;
+	float: right;
+	background: #007143;
+	margin-top: -10px;
+	margin-right:20px;
+	box-shadow: -1px 1px 5px #000;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title></title>
+	
+	<link rel="stylesheet" href="jquery/listPopup.min.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="jquery/aLink.min.js"></script>
+	
+	<script type="text/javascript">
+    function preloading (argument) {
+      var preload = document.getElementById('preload');
+      
+      setTimeout(function(){
+        preload.remove();
+      },500)
+    }
+  </script>
+
+   <style type="text/css">
+    #preload{
+       position: fixed; z-index: 999; width: 750px; height: 1384px; overflow: visible; opacity: 0.9; margin: -50px auto; background: black url('img/pre.gif') no-repeat center center;
+    }
+
+
+  </style>
+
+
+</head>
+<body onload="preloading()">
+
+	<div class="wrapper">
+	<div id="preload"></div>
+
+		
+		<div class="top-nav">
+		My Cards
+		</div>
+		
+		<div class="greenLevel">
+			<a href="reward.html"><div class="reward-btn">Rewards</div></a>	
+		</div>
+
+		<div class="content-box">
+			<div class="card"></div>
+			<a href="pay.html"><div class="pay-btn"></div></a>
+			<div class="info-box">
+				<div class="info-left">
+					<h2>Bath 205.00<h2><br>
+					<h4>As of 2560-02-22 19:43</h4>
+				</div>
+				<div class="info-right">
+					<h3>Registered<br>
+					1234567890123456</h3>
+					
+				</div>
+			</div>
+
+				 <a href="#myPopup" data-rel="popup"><div class="manage-btn">Manage</div></a>
+
+				    <div data-role="popup" id="myPopup">
+				      <ul data-role="listview" data-inset="true" style="min-width:250px;">
+				       
+				        <li><a href="index.html">Refresh Balance</a></li>
+				        <li><a href="trans.html">Transaction History</a></li>
+				        <li><a href="close()">Cancel</a></li>
+				       
+				    </ul>
+				    </div>
+
+
+			<!-- <a href="#"><div class="manage-btn">Manage</div></a> -->
+			<a href="addCard.html"><div class="add-btn">Add a card</div></a>
+			
+		</div>
+
+		<div class="menu-bar"></div>
+
+
+
+		
+		
+	</div>
+
+</body>
+</html>

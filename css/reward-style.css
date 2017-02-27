@@ -1,0 +1,104 @@
+select{
+	list-style: none;
+}
+
+ul a{
+	text-decoration: none;
+}
+
+
+
+nav ul {
+    list-style:none;
+}
+
+
+html,body,div,h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+}
+body{
+	line-height: 1;
+	font-size: 14px;
+	background: black;
+	
+}
+
+
+a:link,a:hover,a:active,a:visited{text-decoration:none;}
+
+.wrapper{
+	width: 750px;
+	height: 1334px;
+	background: #5d5d5d; /* For browsers that do not support gradients */
+	background: -webkit-radial-gradient(circle,#5d5d5d, #222, #1e1e1e); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(circle,#5d5d5d, #222, #1e1e1e); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(circle,#5d5d5d, #222, #1e1e1e); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(circle,#5d5d5d, #222, #1e1e1e); /* Standard syntax */
+
+	margin: 50px auto;
+	position: relative;
+	font-family: sans-serif;
+}
+
+.top-nav{
+	width: 100%;
+	height: 73px;
+	background: #3e8e16;
+    background: -webkit-linear-gradient(#5aa51f, #22790d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5aa51f, #22790d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5aa51f, #22790d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5aa51f, #22790d); /* Standard syntax */
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
+.back-nav{
+	display: inline-block;
+	float: left;
+	font-weight: bolder;
+	padding-left: 45px;
+	margin-right: -45px;
+	font-size: 48px;
+	color: #fff;
+	text-decoration: none;
+	margin-top: -10px;
+}
+
+.content-box{
+	width: 100%;
+	height: 1230px;
+	background-image: url(../img/content-2.jpg);
+}
+
+
+
+.add-btn{
+	width: 290px;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 18px;
+	background: #424242;
+	border-radius: 40px;
+	float: right;
+	margin-right: 228px;
+	margin-top: 160px;
+	font-weight: lighter;
+	opacity: 0.5;
+
+
+}
+
+
+
+a .add-btn:hover{
+	opacity: 1;
+	cursor: pointer;
+}

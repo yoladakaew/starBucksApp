@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reward-style.css">
+	<title></title>
+	<link rel="stylesheet" href="jquery/listPopup-1.min.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="jquery/aLink.min.js"></script>
+
+	<script type="text/javascript">
+    function preloading (argument) {
+      var preload = document.getElementById('preload');
+      
+      setTimeout(function(){
+        preload.remove();
+      },500)
+    }
+  </script>
+
+   <style type="text/css">
+    #preload{
+       position: fixed; z-index: 999; width: 750px; height: 1384px; overflow: visible; opacity: 0.9; margin: -50px auto; background: black url('img/pre.gif') no-repeat center center;
+    }
+
+
+  </style>
+
+
+</head>
+<body onload="preloading()">
+
+	<div class="wrapper">
+	<div id="preload"></div>
+
+		
+		<div class="top-nav">
+		<a href="index.html"><div class="back-nav"><</div></a>
+		My Benefits
+		</div>
+		
+		
+
+		<div class="content-box">
+
+			 <a href="#myPopup" data-rel="popup"><div class="add-btn">Filter by: &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;Active &nbsp;&nbsp;&nbsp;v</div></a>
+
+				    <div data-role="popup" id="myPopup">
+				      <ul data-role="listview" data-inset="true" style="min-width:250px;">
+				       
+				        <li><a href="#">Active</a></li>
+				        <li><a href="#">Redeemed</a></li>
+				         <li><a href="#">Expired</a></li>
+				        <li><a href="close()">Cancel</a></li>
+				       
+				    </ul>
+				    </div>
+			
+		</div>
+
+				
+		
+	</div>
+
+</body>
+</html>
